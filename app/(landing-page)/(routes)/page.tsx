@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const LandingPage = () => {
   return (
-    <div className=" flex items-center h-full justify-center">
+    <div className=" px-5 flex items-center h-full justify-center">
       <div className="  max-w-2xl text-center flex flex-col items-center">
-        <p className=" text-3xl font-semibold mt-5">
+        <p className=" text-xl sm:text-3xl font-semibold mt-5">
           This is a simple todo app built with{" "}
           <a
             href="https://nextjs.org/"

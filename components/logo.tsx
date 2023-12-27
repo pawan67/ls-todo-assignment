@@ -1,11 +1,17 @@
 import { ListTodo } from "lucide-react";
 import Link from "next/link";
+import { buttonVariants } from "./ui/button";
 
 const Logo = () => {
   return (
-    <Link href="/" className="  flex items-center space-x-2">
-      <ListTodo size={40} />
-      <span className=" text-xl font-semibold">Todo</span>
+    <Link
+      href="/"
+      className={buttonVariants({
+        variant: "ghost",
+      })}
+    >
+      <ListTodo size={22} className=" mr-2" />
+      Todos
     </Link>
   );
 };
