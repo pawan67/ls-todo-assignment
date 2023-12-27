@@ -2,6 +2,8 @@
 
 This is a simple todo app built with Next Js 14, Tailwind CSS and Shadcn UI
 
+This app is using Zustand for State Management with data stored in localStorage
+
 ## Screenshots
 
 ![App Screenshot](https://i.imgur.com/8MmsAnk.png)
